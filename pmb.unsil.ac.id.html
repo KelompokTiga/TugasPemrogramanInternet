@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<title>PMB UNSIL</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="basic-jquery-slider.css">
+		<script src="jquery.js" type="text/javascript"></script>
+		<script src="basic-jquery-slider.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function(){
+				$('#slideshow').bjqs({
+					'width' : 720,
+					'height' : 238,
+					'showmarkers' : false,
+					'showcontrols' : true
+				});
+			});
+
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			
+			<div id="header">
+				<h1 id="logo"></h1>
+				<ul id="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Pendaftaran</a></li>
+					<li><a href="#">Info</a></li>
+					<li><a href="#">Hubungi Kami</a></li>
+				</ul>
+			</div>
+			<div id="slideshow">
+				<ul class="bjqs">
+					<li>
+						<img src="images/unsill.jpg" alt="slide" />
+						<h1><a href="">Universitas Siliwangi Tasikmalaya</a></h1>
+					</li>
+					<li>
+						<img src="images/bukuu.jpg" alt="slide" />
+						<h1><a href="">Universitas Siliwangi Tasikmalaya</a></h1>
+					</li>
+					<li>
+						<img src="images/tekno.jpg" alt="slide" />
+						<h1><a href="">Universitas Siliwangi Tasikmalaya</a></h1>
+					<li>
+						<img src="images/unsilmail.jpg" alt="slide" />
+					</li>
+				</ul>
+			</div>
+<h2>LOGIN</h2>
+				<form name=satu action=proses.asp method=get>
+						<table>
+							<tr><td>No Formulir &nbsp;:&nbsp;&nbsp </td>
+							<td><input type=text name=nama size=20><br></td>
+							</tr><td>PIN Bank &nbsp;&nbsp;&nbsp&nbsp;&nbsp;:&nbsp;&nbsp </td>
+							<td><input type=password name=userpwd size=20><br></td>
+							<tr><td><input type=submit value=Login></td>
+							</tr>
+						</table>
+					</form>
+	</body>
+</html>
