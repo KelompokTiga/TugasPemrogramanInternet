@@ -1,111 +1,123 @@
 <!doctype html>
 <html>
-<head>
-<title>PMB UNSIL</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="basic-jquery-slider.css">
-<script src="jquery.js" type="text/javascript"></script>
-<script src="basic-jquery-slider.js" type="text/javascript"></script>
-<script>
-$(document).ready(function(){
-$('#slideshow').bjqs({
-'width' : 720,
-'height' : 238,
-'showmarkers' : false,
-'showcontrols' : true
-});
-});
-</script>
-</head>
-<body>
-<div id="wrapper">
-<br />
-<br />
-<br />
-<br />
-<div id="header">
-<h1 id="logo"></h1>
-<ul id="menu">
-<li><a href="#">Home</a></li>
-<li><a href="#">Pendaftaran</a></li>
-<li><a href="#">Info</a></li>
-<li><a href="#">Hubungi Kami</a></li>
+	<head>
+		<title>PMB UNSIL</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="SpryMenuBarHorizontal.css">
+		<link rel="stylesheet" href="basic-jquery-slider.css">
+		<script src="jquery.js" type="text/javascript"></script>
+		<script src="basic-jquery-slider.js" type="text/javascript"></script>
+		<script>
+			$(document).ready(function(){
+				$('#slideshow').bjqs({
+					'width' : 720,
+					'height' : 238,
+					'showmarkers' : false,
+					'showcontrols' : true
+				});
+			});
+
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<br />
+			<br />
+			<br />
+			<br />
+			<div id="header">
+				<h1 id="logo"></h1>
+				<ul id="MenuBar1" class="MenuBarHorizontal">
+  <li><a href="#">Home</a>  </li>
+  <li><a href="#" class="MenuBarItemSubmenu">Pendaftaran</a>
+  </li>
+  <li><a class="MenuBarItemSubmenu" href="#">Info</a>
+  </li>
+  <li><a href="#">Hubungi Kami</a></li>
 </ul>
-</div> <!-- Div Penutup Header -->
-<div id="slideshow">
-<ul class="bjqs">
-<li>
-<img src="https://lh5.googleusercontent.com/-Sxeu6T5TObU/VEicVOBDOxI/AAAAAAAAADk/Fg1MuCsxGdg/w702-h249-no/unsill.jpg" alt="slide" />
-<h1><a href="">Universitas Siliwangi Tasikmalaya</a></h1>
-</li>
-<li>
-<img src="https://lh4.googleusercontent.com/-ebQCN68M_vc/VEicUCF0McI/AAAAAAAAADY/_L1V7ViWNgk/w701-h235-no/bukuu.jpg" alt="slide" />
-<h1><a href="">Universitas Siliwangi Tasikmalaya</a></h1>
-</li>
-<li>
-<img src="https://lh4.googleusercontent.com/-QV4GgRCwT7E/VEibfHOdx5I/AAAAAAAAACs/79DPEwspWJ0/w702-h231-no/tekno.jpg" alt="slide" />
-<h1><a href="">Universitas Siliwangi Tasikmalaya</a></h1>
-<li>
-<img src="https://lh5.googleusercontent.com/-vZHmyPWYekY/VEicV1A_ftI/AAAAAAAAADo/3UHZW1ANdbQ/w702-h231-no/unsilmail.jpg" alt="slide" />
-<h1><a href="">Universitas Siliwangi Tasikmalaya</a></h1>
-</li>
-</ul>
-</div>
-<div class="artikel">
-<h2>LOGIN</h2>
-<form name=satu action=proses.asp method=get>
-<table>
-<tr><td>No Formulir &nbsp;:&nbsp;&nbsp </td>
-<td><input type=text name=nama size=20><br></td>
-</tr><td>PIN Bank &nbsp;&nbsp;&nbsp&nbsp;&nbsp;:&nbsp;&nbsp </td>
-<td><input type=password name=userpwd size=20><br></td>
-<tr><td><input type=submit value=Login></td>
-</tr>
-</table>
-</form>
-</div class="article">
-<!-- tampilan utama -->
+
+			</div> <!-- Div Penutup Header -->
+
+			<div id="slideshow">
+				<ul class="bjqs">
+					<li>
+						<img src="https://lh5.googleusercontent.com/-Sxeu6T5TObU/VEicVOBDOxI/AAAAAAAAADk/Fg1MuCsxGdg/w702-h249-no/unsill.jpg" alt="slide" />
+						<h1><a href="">Universitas Siliwangi Tasikmalaya</a></h1>
+					</li>
+					<li>
+						<img src="https://lh4.googleusercontent.com/-ebQCN68M_vc/VEicUCF0McI/AAAAAAAAADY/_L1V7ViWNgk/w701-h235-no/bukuu.jpg" alt="slide" />
+						<h1><a href="">Universitas Siliwangi Tasikmalaya</a></h1>
+					</li>
+					<li>
+						<img src="https://lh4.googleusercontent.com/-QV4GgRCwT7E/VEibfHOdx5I/AAAAAAAAACs/79DPEwspWJ0/w702-h231-no/tekno.jpg" alt="slide" />
+						<h1><a href="">Universitas Siliwangi Tasikmalaya</a></h1>
+					<li>
+						<img src="https://lh5.googleusercontent.com/-vZHmyPWYekY/VEicV1A_ftI/AAAAAAAAADo/3UHZW1ANdbQ/w702-h231-no/unsilmail.jpg" alt="slide" />
+	
+						<h1><a href="">Universitas Siliwangi Tasikmalaya</a></h1>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="artikel"> 
+				<h2>LOGIN</h2>
+				<form name=satu action=proses.asp method=get>
+						<table>
+							<tr><td>No Formulir &nbsp;:&nbsp;&nbsp </td>
+							<td><input type=text name=nama size=20><br></td>
+							</tr><td>PIN Bank &nbsp;&nbsp;&nbsp&nbsp;&nbsp;:&nbsp;&nbsp </td>
+							<td><input type=password name=userpwd size=20><br></td>
+							<tr><td><input type=submit value=Login></td>
+							</tr>
+						</table>
+					</form>
+			</div class="article">
+			<!-- tampilan utama -->
 <div id="sidebar">
-<table border="1">
-<tbody><tr>
-<td valign="top" width="450"><h5>Gerbang Masuk Program Sarjana Universitas Siliwangi</h5>
-<font size="2">
-Universitas Siliwangi sebagai Perguruan Tinggi favorit di Jawa Barat banyak menarik minat lulusan SMA. <br>
-Ketertarikan ini tentu saja bukan tanpa alasan. UNSIL adalah salah
-satu pilar utama pendidikan tinggi yang menyediakan pembelajaran
+				
+				<table border="1">
+				<tbody><tr>
+				<td valign="top" width="450"><h5>Gerbang Masuk Program Sarjana Universitas Siliwangi</h5>
+				<font size="2">
+				Universitas Siliwangi sebagai Perguruan Tinggi favorit di Jawa Barat banyak menarik minat lulusan SMA. <br>
+				Ketertarikan ini tentu saja bukan tanpa alasan. UNSIL adalah salah 
+satu pilar utama pendidikan tinggi yang menyediakan pembelajaran 
 berkualitas dengan lulusan yang terbukti mampu memasuki kancah kompetisi
-global.
-Memasuki gerbang UNSIL merupakan idaman banyak anak bangsa bagi
+ global. 
+				Memasuki gerbang UNSIL merupakan idaman banyak anak bangsa bagi 
 lulusan SMA yang baru.
-UNSIL menyiapkan gerbang masuk Program Sarjana (S1) antara lain
+				UNSIL menyiapkan gerbang masuk Program Sarjana (S1) antara lain 
 melalui:
-Melalui Jalur PMDK (Penelusuran Minat dan Kemampuan), USM (Ujian
+				Melalui Jalur PMDK (Penelusuran Minat dan Kemampuan), USM (Ujian 
 Saringan Masuk).
-</font>
-</td>
-<td valign="top">
-<h5>Video Langkah-langkah Daftar PMB Online</h5>
-</td>
-</tr>
-</tbody></table>
-<p>
-<a href="#">Klik Daftar</a><br>
-"PENDAFTARAN GELOMBANG PMDK DITUTUP PADA HARI SABTU, 10 MEI 2014 PUKUL 12:00 WIB"
-</p>
-<p>
-</p>
-</div>
-<div id ="footer">
-<br />
-<br />
-<p>&copy; copyright 2014 by github.com/KelompokTiga/Website.git</p>
-<ul id="footer-menu">
-<li><a href="#">Tentang</a></li>
-<li><a href="#">Blog</a></li>
-<li><a href="#">twitter</a></li>
-<li><a href="#">kontak</a></li>
-</ul>
-</div>
-</div>
-</body>
+				</font>
+				</td>
+				<td valign="top">
+				
+				<h5>Video Langkah-langkah Daftar PMB Online</h5>
+				</td>
+				</tr>
+				</tbody></table>
+				<p>
+				<a href="#">Klik Daftar</a><br>
+				"PENDAFTARAN GELOMBANG PMDK DITUTUP PADA HARI SABTU, 10 MEI 2014 PUKUL 12:00 WIB"
+				</p>
+				<p>
+				</p>
+			</div>
+			
+			<div id ="footer">
+			<br />
+			<br />
+				<p>&copy; copyright 2014 by github.com/KelompokTiga/Website.git</p>
+				<ul id="footer-menu">
+					<li><a href="#">Tentang</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">twitter</a></li>
+					<li><a href="#">kontak</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</body>
 </html>
